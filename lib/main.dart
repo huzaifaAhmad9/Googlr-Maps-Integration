@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_maps_integration/convert_lat_lang_to_address.dart';
 import 'package:google_maps_integration/home_screen.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const HomeScreen(),
+      home: const ConvertLatLangToAddress(),
     );
   }
 }
