@@ -50,7 +50,7 @@ class _PolygonScreenState extends State<PolygonScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Custom Info Window'),
+        title: const Text('Polygons'),
         backgroundColor: Colors.redAccent,
         centerTitle: true,
       ),
