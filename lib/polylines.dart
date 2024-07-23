@@ -66,7 +66,7 @@ class _PolylinesState extends State<Polylines> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Polygons'),
+        title: const Text('Polylines'),
         backgroundColor: Colors.redAccent,
         centerTitle: true,
       ),
