@@ -6,6 +6,7 @@ import 'package:google_maps_integration/home_screen.dart';
 import 'package:google_maps_integration/network_image_marker.dart';
 import 'package:google_maps_integration/polygon_screen.dart';
 import 'package:google_maps_integration/polylines.dart';
+import 'package:google_maps_integration/style_googleMap.dart';
 import 'package:google_maps_integration/user_current_location.dart';
 
 import 'custom_marker_info_window.dart';
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const NetworkImageMarker(),
+      home: const StyleGooglemap(),
     );
   }
 }
